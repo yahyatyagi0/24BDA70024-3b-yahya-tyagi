@@ -1,38 +1,56 @@
-# 24BDA70024-3b-yahya-tyagi
+# FSD Experiment – Admin Dashboard (Next.js)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Student Details
+- **Name:** Yahya Tyagi  
+- **Roll No:** 24BDA70024  
+- **Section:** 3B  
 
-## Getting Started
+---
 
-First, run the development server:
+## Aim
+To develop an admin dashboard using a CSS Grid layout with dynamic light/dark theme switching in Next.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Objectives
+- Create a grid-based responsive dashboard layout  
+- Implement dark/light mode toggle  
+- Use CSS variables for theme management  
+- Persist user theme preference using localStorage  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Hardware / Software Requirements
+- **Processor:** Intel i5 or equivalent  
+- **RAM:** 8 GB  
+- **Software:** Node.js, VS Code, Chrome DevTools  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
+- **Next.js (App Router)**
+- **React Hooks (useState, useEffect)**
+- **JavaScript (ES6)**
+- **CSS Grid & CSS Variables**
+- **HTML5**
+- **localStorage**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## About the Program
+This experiment demonstrates the use of **CSS Grid template areas** to build a structured admin dashboard layout.  
+Theme switching is implemented using **CSS variables**, where light and dark themes are controlled by toggling a data attribute on the root element.  
+The selected theme is stored in **localStorage**, ensuring the user’s preference persists across page reloads.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
+- Responsive admin dashboard layout  
+- Sidebar, header, main content, right panel, and footer sections  
+- Light/Dark theme toggle button  
+- Theme preference saved in localStorage  
+- Clean and modern UI  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Project Structure
