@@ -115,12 +115,19 @@ export default function Page() {
   );
 }
 
-function Card({ title, value, hint }) {
+type CardProps = {
+  title: string;
+  value: string;
+  hint: string;
+};
+
+
+function Card({ title, value, hint }: CardProps) {
   return (
     <div className="card">
-      <div className="cardTitle">{title}</div>
-      <div className="cardValue">{value}</div>
-      <div className="cardHint">{hint}</div>
+      <h3 className="cardTitle">{title}</h3>
+      <p className="cardValue">{value}</p>
+      <p className="cardHint">{hint}</p>
     </div>
   );
 }
