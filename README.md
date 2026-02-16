@@ -1,4 +1,4 @@
-# FSD Experiment – Admin Dashboard (Next.js)
+# Library Management System – FSD Experiment
 
 ## Student Details
 - **Name:** Yahya Tyagi  
@@ -8,48 +8,56 @@
 ---
 
 ## Aim
-To develop an admin dashboard using a CSS Grid layout with dynamic light/dark theme switching in Next.js.
+To build a Library Management System with book search, add, and remove functionality using React and Next.js.
 
 ---
 
 ## Objectives
-- Create a grid-based responsive dashboard layout  
-- Implement dark/light mode toggle  
-- Use CSS variables for theme management  
-- Persist user theme preference using localStorage  
+- Create a responsive book listing interface  
+- Implement search functionality for books  
+- Add a form to insert new book entries  
+- Enable removal of books from the list  
+- Manage application state using React hooks  
 
 ---
 
 ## Hardware / Software Requirements
-- **Processor:** Intel i5 or equivalent  
-- **RAM:** 8 GB  
-- **Software:** Node.js, VS Code, Chrome DevTools  
+### Software
+- Node.js 18+
+- React 18+
+- Next.js (App Router)
+- VS Code
+
+### Hardware
+- Intel i5 or equivalent processor
+- 8 GB RAM
 
 ---
 
 ## Technologies Used
 - **Next.js (App Router)**
-- **React Hooks (useState, useEffect)**
+- **React Hooks (useState, useMemo)**
+- **TypeScript**
 - **JavaScript (ES6)**
-- **CSS Grid & CSS Variables**
+- **CSS (Responsive Grid & Flexbox)**
 - **HTML5**
-- **localStorage**
 
 ---
 
 ## About the Program
-This experiment demonstrates the use of **CSS Grid template areas** to build a structured admin dashboard layout.  
-Theme switching is implemented using **CSS variables**, where light and dark themes are controlled by toggling a data attribute on the root element.  
-The selected theme is stored in **localStorage**, ensuring the user’s preference persists across page reloads.
+This project demonstrates a simple **Library Management System** that performs basic **CRUD operations** on book data.  
+Users can search for books, add new books using a form, and remove existing books from the list.  
+The application uses **React hooks** for state management and **form handling** for user input.  
+A responsive layout ensures usability across different screen sizes.
 
 ---
 
 ## Features
-- Responsive admin dashboard layout  
-- Sidebar, header, main content, right panel, and footer sections  
-- Light/Dark theme toggle button  
-- Theme preference saved in localStorage  
-- Clean and modern UI  
+- Search books by **title, author, or category**
+- Add new books using a form
+- Remove books from the library
+- Responsive book listing
+- Clean and user-friendly UI
 
 ---
 
